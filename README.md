@@ -8,4 +8,4 @@ L - Liskov Substitution Principle
 I - Interface Segregation Principle
 D - Dependency Inversion Principle
 
-each file have a file with example for it
+each file has a file with an example of it
