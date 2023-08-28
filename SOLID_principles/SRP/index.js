@@ -27,10 +27,10 @@ class DisplayPerson {
     ) {
       document.getElementById("text").innerHTML = `Name: ${this.name}, Age: ${this.age}`
     } else {
-      document.getElementById("text").innerHTML = "Invalid";
+      document.getElementById("text").innerHTML = "Invalid, name length it should be above 3, and the age it should be above 18";
     }
   }
 }
 
-const firstPerson = new DisplayPerson("Moath", 22);
+const firstPerson = new DisplayPerson("Moath", 19);
 firstPerson.display();
