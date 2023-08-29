@@ -10,18 +10,6 @@ class Shape {
   getColor() {
     return this.color;
   }
-  display(type, data) {
-    switch (type) {
-      case "rectangle":
-        break;
-      case "sequre":
-        break;
-      default:
-        document.getElementById(
-          "text"
-        ).innerHTML = `This shap ${type} is not availabel`;
-    }
-  }
 }
 
 class Rectangle extends Shape {
